@@ -5,7 +5,6 @@ A robust end-to-end test automation framework for e-commerce applications built 
 ## 📋 Table of Contents
 - [Architecture](#architecture)
 - [Features](#features)
-- [Prerequisites](#prerequisites)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
