@@ -25,6 +25,11 @@ public class LoginPage {
         if(driver.getCurrentUrl().contentEquals(dashboardURL)){
             System.out.println("User has successfully logged in to Orange HRM");
         }
+        else{
+            driver.findElement(By.cssSelector("p[class*='orangehrm-login-forgot-header']")).click();
+            System.out.println(driver.getCurrentUrl());
+            driver.findElement(By.name("username")).sendKeys("Admin");
+        }
 
         driver.quit();
     }

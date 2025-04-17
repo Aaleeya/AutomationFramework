@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fb4459-a40e-423a-820f-de1b038c0f95" name="Changes" comment="SeleniumIntro java file added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MiniProjects/LoginPage.java" afterDir="false" />
+    <list default="true" id="40fb4459-a40e-423a-820f-de1b038c0f95" name="Changes" comment="Automated Login page of OrangeHRM web portal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MiniProjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniProjects/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayExploration.executor": "Run",
-    "Application.LoginPage.executor": "Run",
-    "Application.SeleniumIntro.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayExploration.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeleniumIntro.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LoginPage">
     <configuration name="ArrayExploration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiniProjects.ArrayExploration" />
@@ -125,12 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744653217328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Automated Login page of OrangeHRM web portal">
+      <option name="closed" value="true" />
+      <created>1744714249637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744714249637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code added" />
     <MESSAGE value="SeleniumIntro java file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="SeleniumIntro java file added" />
+    <MESSAGE value="Automated Login page of OrangeHRM web portal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automated Login page of OrangeHRM web portal" />
   </component>
 </project>
