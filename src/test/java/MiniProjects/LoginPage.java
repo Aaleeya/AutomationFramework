@@ -29,6 +29,7 @@ public class LoginPage {
             driver.findElement(By.cssSelector("p[class*='orangehrm-login-forgot-header']")).click();
             System.out.println(driver.getCurrentUrl());
             driver.findElement(By.name("username")).sendKeys("Admin");
+            driver.findElement(By.cssSelector("button[class*='button--reset']")).click();
         }
 
         driver.quit();
