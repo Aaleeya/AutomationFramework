@@ -17,8 +17,11 @@ public class LoginPage {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-            driver.findElement(By.cssSelector("input[placeholder = 'Username']")).sendKeys("Admin");
-            driver.findElement(By.cssSelector("input[placeholder = 'Password']")).sendKeys("admin123");
+        String username = getUsername(driver);
+        String pwd = getPassword(driver);
+
+            driver.findElement(By.cssSelector("input[placeholder = 'Username']")).sendKeys(username);
+            driver.findElement(By.cssSelector("input[placeholder = 'Password']")).sendKeys(pwd);
             driver.findElement(By.xpath("//button[@type='submit']")).click();
 
         String dashboardURL= "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
@@ -33,5 +36,18 @@ public class LoginPage {
         }
 
         driver.quit();
+    }
+
+    public static String getUsername(WebDriver driver){
+        String usernameText = driver.findElement(By.xpath(
+                "//p[@class='oxd-text oxd-text--p'][1]")).getText();
+        String text = usernameText.split(":")[1].trim();
+        return text;
+    }
+
+    public static String getPassword(WebDriver driver){
+        String passwordText = driver.findElement(By.xpath("//div/p[2]")).getText();
+        String password = passwordText.split(":")[1].trim();
+        return password;
     }
 }
