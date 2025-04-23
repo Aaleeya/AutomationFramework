@@ -41,13 +41,11 @@ public class LoginPage {
     public static String getUsername(WebDriver driver){
         String usernameText = driver.findElement(By.xpath(
                 "//p[@class='oxd-text oxd-text--p'][1]")).getText();
-        String text = usernameText.split(":")[1].trim();
-        return text;
+        return usernameText.split(":")[1].trim();
     }
 
     public static String getPassword(WebDriver driver){
         String passwordText = driver.findElement(By.xpath("//div/p[2]")).getText();
-        String password = passwordText.split(":")[1].trim();
-        return password;
+        return passwordText.split(":")[1].trim();
     }
 }
