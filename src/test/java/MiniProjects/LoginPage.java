@@ -1,5 +1,6 @@
 package MiniProjects;
 
+import junit.framework.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,6 +26,9 @@ public class LoginPage {
             driver.findElement(By.xpath("//button[@type='submit']")).click();
 
         String dashboardURL= "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
+
+        Assert.assertEquals(dashboardURL, driver.getCurrentUrl());
+
         if(driver.getCurrentUrl().contentEquals(dashboardURL)){
             System.out.println("User has successfully logged in to Orange HRM");
         }

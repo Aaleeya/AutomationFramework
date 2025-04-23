@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fb4459-a40e-423a-820f-de1b038c0f95" name="Changes" comment="Automated Login page of OrangeHRM web portal">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MiniProjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniProjects/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744909165102</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Automated Login page of OrangeHRM web portal">
+      <option name="closed" value="true" />
+      <created>1745423395848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745423395848</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Automated Login page of OrangeHRM web portal">
+      <option name="closed" value="true" />
+      <created>1745423517011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745423517011</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
