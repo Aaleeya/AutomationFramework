@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fb4459-a40e-423a-820f-de1b038c0f95" name="Changes" comment="Automated ParaBank Register page">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MiniProjects/ParaBankLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MiniProjects/ParaBankRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniProjects/ParaBankRegister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
   "keyToString": {
     "Application.ArrayExploration.executor": "Run",
     "Application.LoginPage.executor": "Run",
+    "Application.ParaBankLogin.executor": "Run",
     "Application.ParaBankRegister.executor": "Run",
     "Application.SeleniumIntro.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -45,7 +46,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ParaBankRegister">
+  <component name="RunManager" selected="Application.ParaBankLogin">
     <configuration name="ArrayExploration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiniProjects.ArrayExploration" />
       <module name="AutomationFramework" />
@@ -61,6 +62,19 @@
     </configuration>
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiniProjects.LoginPage" />
+      <module name="AutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MiniProjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParaBankLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiniProjects.ParaBankLogin" />
       <module name="AutomationFramework" />
       <extension name="coverage">
         <pattern>
@@ -100,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParaBankLogin" />
         <item itemvalue="Application.ParaBankRegister" />
         <item itemvalue="Application.LoginPage" />
         <item itemvalue="Application.ArrayExploration" />
@@ -196,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745765587721</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Automated ParaBank Register page">
+      <option name="closed" value="true" />
+      <created>1745768476241</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745768476241</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
