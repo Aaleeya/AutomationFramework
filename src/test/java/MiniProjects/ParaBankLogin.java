@@ -14,6 +14,5 @@ public class ParaBankLogin {
         driver.findElement(By.cssSelector("input[type='password']")).sendKeys("Banking123");
         driver.findElement(By.cssSelector("input[value='Log In']")).click();
 
-        driver.quit();
     }
 }
