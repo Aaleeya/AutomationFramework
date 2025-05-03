@@ -25,6 +25,8 @@ public class LoginPage {
             driver.findElement(By.cssSelector("input[placeholder = 'Password']")).sendKeys(pwd);
             driver.findElement(By.xpath("//button[@type='submit']")).click();
 
+        //driver.switchTo().alert().accept();
+
         String dashboardURL= "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
 
         Assert.assertEquals(dashboardURL, driver.getCurrentUrl());
