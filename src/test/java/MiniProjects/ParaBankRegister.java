@@ -4,6 +4,7 @@ import junit.framework.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
@@ -11,7 +12,7 @@ public class ParaBankRegister {
 
     static String url = "https://parabank.parasoft.com/parabank/index.htm";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(url);
@@ -34,6 +35,20 @@ public class ParaBankRegister {
 
 //        Assert.assertEquals("Your account was created successfully. You are now logged in.",
 //                driver.findElement(By.xpath("//div[@id='rightpanel']/p")).getText());
+        Assert.assertEquals("56634", driver.findElement(By.id("accountId")));
+        driver.findElement(By.xpath("//tbody/tr/td/a")).click();
+        Thread.sleep(2000);
+        Select month = new Select(driver.findElement(By.id("month")));
+        month.selectByValue("All");
+        driver.findElement(By.cssSelector(".button")).click();
+
+        Thread.sleep(2000);
+        driver.findElement(By.linkText("Open New Account")).click();
+        Select type = new Select(driver.findElement(By.id("type")));
+        type.selectByVisibleText("SAVINGS");
+        driver.findElement(By.cssSelector("input[value='Open New Account']")).click();
+
+
 
     }
 }

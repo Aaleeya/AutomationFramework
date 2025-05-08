@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fb4459-a40e-423a-820f-de1b038c0f95" name="Changes" comment="Automated ParaBank Login page">
+    <list default="true" id="40fb4459-a40e-423a-820f-de1b038c0f95" name="Changes" comment="Updated files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MiniProjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniProjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MiniProjects/ParaBankLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniProjects/ParaBankLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MiniProjects/ParaBankRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniProjects/ParaBankRegister.java" afterDir="false" />
     </list>
@@ -48,7 +47,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LoginPage">
+  <component name="RunManager" selected="Application.ParaBankLogin">
     <configuration name="ArrayExploration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiniProjects.ArrayExploration" />
       <module name="AutomationFramework" />
@@ -116,9 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoginPage" />
         <item itemvalue="Application.ParaBankLogin" />
         <item itemvalue="Application.ParaBankRegister" />
+        <item itemvalue="Application.LoginPage" />
         <item itemvalue="Application.ParaBankForgotLoginInfo" />
         <item itemvalue="Application.ArrayExploration" />
       </list>
@@ -229,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745769403221</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated files">
+      <option name="closed" value="true" />
+      <created>1746262610416</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746262610416</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +245,7 @@
     <MESSAGE value="Automated Login page of OrangeHRM web portal" />
     <MESSAGE value="Automated ParaBank Register page" />
     <MESSAGE value="Automated ParaBank Login page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automated ParaBank Login page" />
+    <MESSAGE value="Updated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated files" />
   </component>
 </project>
